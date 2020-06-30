@@ -19,6 +19,6 @@ print b
 print "\n"
 
 a = [1,9,2,10,3,7,4,6]
-b = (a.select { |e| e < 5}).count
+b = a.count { |e| e < 5}
 print b
 print "\n"
